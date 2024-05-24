@@ -22,6 +22,7 @@ echo.
 echo RUNNING...
 timeout 1 > NUL
 
+cd %~dp0
 start resources\commands\movedlls32.cmd
 
 timeout 2 > NUL
